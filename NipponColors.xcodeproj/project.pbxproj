@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2094C10211BE1A9006AC9CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2094C0F211BE1A9006AC9CA /* AppDelegate.m */; };
+		B2094C16211BE1A9006AC9CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2094C14211BE1A9006AC9CA /* Main.storyboard */; };
+		B2094C18211BE1BC006AC9CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2094C17211BE1BC006AC9CA /* Assets.xcassets */; };
+		B2094C1B211BE1BC006AC9CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2094C19211BE1BC006AC9CA /* LaunchScreen.storyboard */; };
+		B2094C1E211BE1BC006AC9CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2094C1D211BE1BC006AC9CA /* main.m */; };
+		B2094C26211BE249006AC9CA /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2094C25211BE249006AC9CA /* MainViewController.m */; };
+		B2094C28211BE2A8006AC9CA /* nipponcolors.plist in Resources */ = {isa = PBXBuildFile; fileRef = B2094C27211BE2A8006AC9CA /* nipponcolors.plist */; };
+		B2094C2B211BE72E006AC9CA /* ColorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B2094C2A211BE72E006AC9CA /* ColorModel.m */; };
+		B2094C50211C3DC2006AC9CA /* MainViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B2094C4F211C3DC2006AC9CA /* MainViewModel.m */; };
+		B2094C53211C416F006AC9CA /* ColorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B2094C52211C416F006AC9CA /* ColorCell.m */; };
+		B2094C56211D25ED006AC9CA /* UIColor+hex2color.m in Sources */ = {isa = PBXBuildFile; fileRef = B2094C55211D25ED006AC9CA /* UIColor+hex2color.m */; };
+		B2094C59211D30A4006AC9CA /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2094C58211D30A4006AC9CA /* DetailViewController.m */; };
+		B2094C61211D6D13006AC9CA /* CycleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = B2094C60211D6D13006AC9CA /* CycleProgressView.m */; };
+		B2094C6421211EF9006AC9CA /* ColorIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = B2094C6321211EF9006AC9CA /* ColorIndicator.m */; };
+		B2094C6A212165D2006AC9CA /* UINavigationController+Status.m in Sources */ = {isa = PBXBuildFile; fileRef = B2094C69212165D2006AC9CA /* UINavigationController+Status.m */; };
+		B2094C6D21216E11006AC9CA /* HQToastManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B2094C6C21216E11006AC9CA /* HQToastManager.m */; };
+		F411959B6469E99319CB2254 /* libPods-NipponColors.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B47F05F6F8625CB140F0D36C /* libPods-NipponColors.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8809E6A758D7B10543AC438D /* Pods-NipponColors.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NipponColors.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NipponColors/Pods-NipponColors.debug.xcconfig"; sourceTree = "<group>"; };
+		B2094C0B211BE1A9006AC9CA /* NipponColors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NipponColors.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2094C0E211BE1A9006AC9CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B2094C0F211BE1A9006AC9CA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B2094C15211BE1A9006AC9CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B2094C17211BE1BC006AC9CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B2094C1A211BE1BC006AC9CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B2094C1C211BE1BC006AC9CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2094C1D211BE1BC006AC9CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B2094C24211BE249006AC9CA /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		B2094C25211BE249006AC9CA /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		B2094C27211BE2A8006AC9CA /* nipponcolors.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = nipponcolors.plist; sourceTree = "<group>"; };
+		B2094C29211BE72E006AC9CA /* ColorModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorModel.h; sourceTree = "<group>"; };
+		B2094C2A211BE72E006AC9CA /* ColorModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorModel.m; sourceTree = "<group>"; };
+		B2094C4E211C3DC2006AC9CA /* MainViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewModel.h; sourceTree = "<group>"; };
+		B2094C4F211C3DC2006AC9CA /* MainViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewModel.m; sourceTree = "<group>"; };
+		B2094C51211C416F006AC9CA /* ColorCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorCell.h; sourceTree = "<group>"; };
+		B2094C52211C416F006AC9CA /* ColorCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorCell.m; sourceTree = "<group>"; };
+		B2094C54211D25ED006AC9CA /* UIColor+hex2color.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+hex2color.h"; sourceTree = "<group>"; };
+		B2094C55211D25ED006AC9CA /* UIColor+hex2color.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+hex2color.m"; sourceTree = "<group>"; };
+		B2094C57211D30A4006AC9CA /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		B2094C58211D30A4006AC9CA /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		B2094C5F211D6D13006AC9CA /* CycleProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CycleProgressView.h; sourceTree = "<group>"; };
+		B2094C60211D6D13006AC9CA /* CycleProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CycleProgressView.m; sourceTree = "<group>"; };
+		B2094C6221211EF9006AC9CA /* ColorIndicator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorIndicator.h; sourceTree = "<group>"; };
+		B2094C6321211EF9006AC9CA /* ColorIndicator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorIndicator.m; sourceTree = "<group>"; };
+		B2094C68212165D2006AC9CA /* UINavigationController+Status.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Status.h"; sourceTree = "<group>"; };
+		B2094C69212165D2006AC9CA /* UINavigationController+Status.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Status.m"; sourceTree = "<group>"; };
+		B2094C6B21216E11006AC9CA /* HQToastManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQToastManager.h; sourceTree = "<group>"; };
+		B2094C6C21216E11006AC9CA /* HQToastManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQToastManager.m; sourceTree = "<group>"; };
+		B47F05F6F8625CB140F0D36C /* libPods-NipponColors.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NipponColors.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C066D3D08BB6E1EF41C12871 /* Pods-NipponColors.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NipponColors.release.xcconfig"; path = "Pods/Target Support Files/Pods-NipponColors/Pods-NipponColors.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2094C08211BE1A9006AC9CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F411959B6469E99319CB2254 /* libPods-NipponColors.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2094C02211BE1A9006AC9CA = {
+			isa = PBXGroup;
+			children = (
+				B2094C0D211BE1A9006AC9CA /* NipponColors */,
+				B2094C0C211BE1A9006AC9CA /* Products */,
+				F4A471EC5382C45E99ED6BB5 /* Pods */,
+				EBE4A79E1CBB86D240504123 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B2094C0C211BE1A9006AC9CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2094C0B211BE1A9006AC9CA /* NipponColors.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2094C0D211BE1A9006AC9CA /* NipponColors */ = {
+			isa = PBXGroup;
+			children = (
+				B2094C5E211D6CF2006AC9CA /* Component */,
+				B2094C5C211D3812006AC9CA /* Model */,
+				B2094C5B211D3807006AC9CA /* Extension */,
+				B2094C5A211D37F0006AC9CA /* resource */,
+				B2094C0E211BE1A9006AC9CA /* AppDelegate.h */,
+				B2094C0F211BE1A9006AC9CA /* AppDelegate.m */,
+				B2094C14211BE1A9006AC9CA /* Main.storyboard */,
+				B2094C17211BE1BC006AC9CA /* Assets.xcassets */,
+				B2094C19211BE1BC006AC9CA /* LaunchScreen.storyboard */,
+				B2094C1C211BE1BC006AC9CA /* Info.plist */,
+				B2094C1D211BE1BC006AC9CA /* main.m */,
+				B2094C24211BE249006AC9CA /* MainViewController.h */,
+				B2094C25211BE249006AC9CA /* MainViewController.m */,
+				B2094C57211D30A4006AC9CA /* DetailViewController.h */,
+				B2094C58211D30A4006AC9CA /* DetailViewController.m */,
+				B2094C4E211C3DC2006AC9CA /* MainViewModel.h */,
+				B2094C4F211C3DC2006AC9CA /* MainViewModel.m */,
+				B2094C51211C416F006AC9CA /* ColorCell.h */,
+				B2094C52211C416F006AC9CA /* ColorCell.m */,
+			);
+			path = NipponColors;
+			sourceTree = "<group>";
+		};
+		B2094C5A211D37F0006AC9CA /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				B2094C27211BE2A8006AC9CA /* nipponcolors.plist */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		B2094C5B211D3807006AC9CA /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B2094C54211D25ED006AC9CA /* UIColor+hex2color.h */,
+				B2094C55211D25ED006AC9CA /* UIColor+hex2color.m */,
+				B2094C68212165D2006AC9CA /* UINavigationController+Status.h */,
+				B2094C69212165D2006AC9CA /* UINavigationController+Status.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		B2094C5C211D3812006AC9CA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B2094C29211BE72E006AC9CA /* ColorModel.h */,
+				B2094C2A211BE72E006AC9CA /* ColorModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B2094C5E211D6CF2006AC9CA /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				B2094C5F211D6D13006AC9CA /* CycleProgressView.h */,
+				B2094C60211D6D13006AC9CA /* CycleProgressView.m */,
+				B2094C6221211EF9006AC9CA /* ColorIndicator.h */,
+				B2094C6321211EF9006AC9CA /* ColorIndicator.m */,
+				B2094C6B21216E11006AC9CA /* HQToastManager.h */,
+				B2094C6C21216E11006AC9CA /* HQToastManager.m */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		EBE4A79E1CBB86D240504123 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B47F05F6F8625CB140F0D36C /* libPods-NipponColors.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4A471EC5382C45E99ED6BB5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8809E6A758D7B10543AC438D /* Pods-NipponColors.debug.xcconfig */,
+				C066D3D08BB6E1EF41C12871 /* Pods-NipponColors.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2094C0A211BE1A9006AC9CA /* NipponColors */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2094C21211BE1BC006AC9CA /* Build configuration list for PBXNativeTarget "NipponColors" */;
+			buildPhases = (
+				76B3E8A30F1625E94B85B4AE /* [CP] Check Pods Manifest.lock */,
+				B2094C07211BE1A9006AC9CA /* Sources */,
+				B2094C08211BE1A9006AC9CA /* Frameworks */,
+				B2094C09211BE1A9006AC9CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NipponColors;
+			productName = NipponColors;
+			productReference = B2094C0B211BE1A9006AC9CA /* NipponColors.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2094C03211BE1A9006AC9CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = lujiuyin;
+				TargetAttributes = {
+					B2094C0A211BE1A9006AC9CA = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = B2094C06211BE1A9006AC9CA /* Build configuration list for PBXProject "NipponColors" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B2094C02211BE1A9006AC9CA;
+			productRefGroup = B2094C0C211BE1A9006AC9CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2094C0A211BE1A9006AC9CA /* NipponColors */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2094C09211BE1A9006AC9CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2094C1B211BE1BC006AC9CA /* LaunchScreen.storyboard in Resources */,
+				B2094C18211BE1BC006AC9CA /* Assets.xcassets in Resources */,
+				B2094C28211BE2A8006AC9CA /* nipponcolors.plist in Resources */,
+				B2094C16211BE1A9006AC9CA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		76B3E8A30F1625E94B85B4AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NipponColors-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2094C07211BE1A9006AC9CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2094C1E211BE1BC006AC9CA /* main.m in Sources */,
+				B2094C61211D6D13006AC9CA /* CycleProgressView.m in Sources */,
+				B2094C10211BE1A9006AC9CA /* AppDelegate.m in Sources */,
+				B2094C26211BE249006AC9CA /* MainViewController.m in Sources */,
+				B2094C59211D30A4006AC9CA /* DetailViewController.m in Sources */,
+				B2094C50211C3DC2006AC9CA /* MainViewModel.m in Sources */,
+				B2094C2B211BE72E006AC9CA /* ColorModel.m in Sources */,
+				B2094C6A212165D2006AC9CA /* UINavigationController+Status.m in Sources */,
+				B2094C6421211EF9006AC9CA /* ColorIndicator.m in Sources */,
+				B2094C53211C416F006AC9CA /* ColorCell.m in Sources */,
+				B2094C56211D25ED006AC9CA /* UIColor+hex2color.m in Sources */,
+				B2094C6D21216E11006AC9CA /* HQToastManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B2094C14211BE1A9006AC9CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2094C15211BE1A9006AC9CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B2094C19211BE1BC006AC9CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2094C1A211BE1BC006AC9CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2094C1F211BE1BC006AC9CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B2094C20211BE1BC006AC9CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2094C22211BE1BC006AC9CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8809E6A758D7B10543AC438D /* Pods-NipponColors.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GSX973P86J;
+				INFOPLIST_FILE = NipponColors/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hanqiu.NipponColors;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B2094C23211BE1BC006AC9CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C066D3D08BB6E1EF41C12871 /* Pods-NipponColors.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GSX973P86J;
+				INFOPLIST_FILE = NipponColors/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hanqiu.NipponColors;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2094C06211BE1A9006AC9CA /* Build configuration list for PBXProject "NipponColors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2094C1F211BE1BC006AC9CA /* Debug */,
+				B2094C20211BE1BC006AC9CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2094C21211BE1BC006AC9CA /* Build configuration list for PBXNativeTarget "NipponColors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2094C22211BE1BC006AC9CA /* Debug */,
+				B2094C23211BE1BC006AC9CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2094C03211BE1A9006AC9CA /* Project object */;
+}
